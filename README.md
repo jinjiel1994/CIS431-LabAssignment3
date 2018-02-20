@@ -30,4 +30,4 @@ n=1e4   25806   6853.9  6922.5  6871.0  6835.9
 n=1e5
 ~~~
 
-I can run 1e5*1e5 in my Mac because the magnitude is too large to compute. However, from the gragh listed above, we can see when the magnitude is not quite large, optimization is not significant, while if the magnitude is large enough, multiple threads can run much faster.
+I cannot run 1e5*1e5 in my Mac because the magnitude is too large to compute. However, from the gragh listed above, we can see when the magnitude is not quite large, optimization is not significant, while if the magnitude is large enough, multiple threads can run much faster.
