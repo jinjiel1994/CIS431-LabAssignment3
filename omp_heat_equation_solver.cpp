@@ -1,5 +1,6 @@
 
 // g++-6 -o omp_heat_equation_solver omp_heat_equation_solver.cpp -fopenmp
+
 #include <chrono>
 #include <iostream>
 #include <algorithm>
@@ -63,7 +64,7 @@ int heat_equation_cal(int n, int num_of_threads){
   cout << "n = " << n << ", threads = " << num_of_threads << endl;
   cout << "Runtime: "
     << timer
-    << " nanoseconds" << std::endl;
+    << " seconds" << std::endl;
 
   return 0; 
 }
