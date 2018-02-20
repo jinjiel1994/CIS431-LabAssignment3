@@ -13,7 +13,7 @@ For serial one, the compling command line is:
 For openmp one, the compling command line is:
 
 ~~~
-   // g++-6 -o omp_heat_equation_solver omp_heat_equation_solver.cpp -fopenmp
+   g++-6 -o omp_heat_equation_solver omp_heat_equation_solver.cpp -fopenmp
 ~~~
 
 I've tested the output, listed below: （unit = second)
